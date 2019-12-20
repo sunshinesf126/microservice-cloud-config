@@ -5,7 +5,7 @@ spring:
 server:
   port: 8001
 mybatis:
-  type-aliases-package: com.mengxuegu.springcloud.entities
+  type-aliases-package: com.abc.springcloud.entity
   mapper-locations: classpath:mybatis/mapper/**/*.xml
   configuration:
     map-underscore-to-camel-case: true
@@ -39,7 +39,7 @@ server:
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
-  type-aliases-package: com.mengxuegu.springcloud.entities
+  type-aliases-package: com.abc.springcloud.entity
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
   profiles: prod # 生产环境
